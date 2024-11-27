@@ -74,6 +74,14 @@
 }
 
 @media screen and (max-width: 768px) {
+  .about-main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+  }
+
   .about-mobile-icon-div {
     display: flex;
     justify-content: space-around;
@@ -84,13 +92,6 @@
 
   .social-media-icon-about-div {
     display: none;
-  }
-
-  .about-main-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .about-me-div {
@@ -105,11 +106,13 @@
 
   .about-main-h1 {
     font-size: 20px;
+    margin-top: 0px;
   }
 
   .about-btn {
     font-size: 15px;
     width: 140px;
     height: 35px;
+    margin-top: 20px;
   }
 }
